@@ -1,0 +1,92 @@
+header h1 {
+  font-size: 42px;
+}
+
+header .hero-img {
+  background-image: url(../img/fortnite-4129124_1920.jpg);
+}
+
+header .hero-text p {
+  font-size: 22px;
+}
+
+header .fa-chevron-down {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 30px;
+  -webkit-animation: bounce 1.6s infinite;
+          animation: bounce 1.6s infinite;
+  color: #fff;
+}
+
+#portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+
+#portfolio .carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -48%);
+          transform: translate(-50%, -48%);
+}
+
+#portfolio .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px 10px;
+  text-shadow: 3px 3px 5px black;
+}
+
+#portfolio .carousel-indicators {
+  padding-bottom: 20px;
+}
+
+#prices .prices-wrap {
+  width: 80%;
+}
+
+#team .card-body {
+  height: 255px;
+}
+
+@media (min-width: 1146px) {
+  #team .card-body {
+    height: 210px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #prices .prices-wrap {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #aboutus-next .jumbotron {
+    padding: 100px 0;
+  }
+  #team .card-body {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1800px) {
+  #team .card-body {
+    height: 190px;
+  }
+}
+
+@media (min-width: 2000px) {
+  #prices .prices-wrap {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=large.css.map */

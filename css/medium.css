@@ -1,0 +1,32 @@
+header h1 {
+  font-size: 42px;
+}
+
+header .hero-img {
+  background-image: url(../img/fortnite-4129124_1280.jpg);
+}
+
+header .hero-text p {
+  font-size: 22px;
+}
+
+#prices .prices-wrap {
+  width: 90%;
+}
+
+#prices .price-info {
+  font-size: 24px;
+}
+
+#team .card-body {
+  height: 200px;
+}
+
+#team .card-title {
+  font-size: 24px;
+}
+
+#team .card-text {
+  font-size: 18px;
+}
+/*# sourceMappingURL=medium.css.map */
